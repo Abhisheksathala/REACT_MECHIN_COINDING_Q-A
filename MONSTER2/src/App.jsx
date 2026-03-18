@@ -10,6 +10,7 @@ import QrcodeGen from "./components/QRcode/QrcodeGen";
 import LightDarkMode from "./components/D&LTheam/LightDarkMode";
 import Sscrollindecater from "./components/scrollindecater/Sscrollindecater";
 import CustomeTabs from "./components/CustomeTabs/CustomeTabs";
+import ModelPopUP from "./components/ModelPopUP/ModelPopUP";
 
 const App = () => {
   return (
@@ -35,7 +36,8 @@ const App = () => {
       {/* Light and Dark mode */}
       {/* <LightDarkMode /> */}
       {/* <Sscrollindecater url={'https://dummyjson.com/products?limit=100'}/> */}
-      <CustomeTabs />
+      {/* <CustomeTabs /> */}
+      <ModelPopUP />
     </div>
   );
 };
