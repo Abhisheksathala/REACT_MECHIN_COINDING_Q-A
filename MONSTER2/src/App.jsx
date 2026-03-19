@@ -11,6 +11,9 @@ import LightDarkMode from "./components/D&LTheam/LightDarkMode";
 import Sscrollindecater from "./components/scrollindecater/Sscrollindecater";
 import CustomeTabs from "./components/CustomeTabs/CustomeTabs";
 import ModelPopUP from "./components/ModelPopUP/ModelPopUP";
+import Model from "./components/ModelPopUP/Model";
+import GithubProfileFinder from "./components/githubProfileFinder/githubProfileFinder";
+import SearchAutoComple from "./components/SearchAutoComple/SearchAutoComple";
 
 const App = () => {
   return (
@@ -37,7 +40,9 @@ const App = () => {
       {/* <LightDarkMode /> */}
       {/* <Sscrollindecater url={'https://dummyjson.com/products?limit=100'}/> */}
       {/* <CustomeTabs /> */}
-      <ModelPopUP />
+      {/* <Model /> */}
+      {/* <GithubProfileFinder /> */}
+      <SearchAutoComple />
     </div>
   );
 };

@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
 
-const ModelPopUP = () => {
+const ModelPopUP = ({ id, header, body, footer, handletogglemodelpopup }) => {
   return (
-    <div>ModelPopUP</div>
-  )
-}
+    <div
+      id={id || "model"}
+      className="h-[300px] w-[300px] bg-green-200 flex flex-col"
+      onClick={handletogglemodelpopup}
+    >
+      {header}
+      {body}
+      {footer}
+    </div>
+  );
+};
 
-export default ModelPopUP
+export default ModelPopUP;
