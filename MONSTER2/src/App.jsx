@@ -14,6 +14,8 @@ import ModelPopUP from "./components/ModelPopUP/ModelPopUP";
 import Model from "./components/ModelPopUP/Model";
 import GithubProfileFinder from "./components/githubProfileFinder/githubProfileFinder";
 import SearchAutoComple from "./components/SearchAutoComple/SearchAutoComple";
+import UseFeatchCustomhookInreal from "./components/useFeatchCustomhook/UseFeatchCustomhook";
+import UseOnclickOutside from "./components/UseOnclickOutside/UseOnclickOutside";
 
 const App = () => {
   return (
@@ -42,7 +44,10 @@ const App = () => {
       {/* <CustomeTabs /> */}
       {/* <Model /> */}
       {/* <GithubProfileFinder /> */}
-      <SearchAutoComple />
+      {/* <SearchAutoComple /> */}
+      {/* <UseFeatchCustomhookInreal /> */}
+      {/* <UseOnclickOutside /> */}
+      <UseOnclickOutside />
     </div>
   );
 };
