@@ -50,6 +50,10 @@ const SearchAutoComple = () => {
 
   console.log(users, filteruser);
 
+  if(load){
+    return <div>loading</div>
+  }
+
   return (
     <div>
       <h1>search</h1>
@@ -74,6 +78,7 @@ const SearchAutoComple = () => {
           })}
         </p>
       )}
+      {er}
     </div>
   );
 };
