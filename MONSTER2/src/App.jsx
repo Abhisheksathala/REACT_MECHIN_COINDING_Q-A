@@ -19,6 +19,7 @@ import UseOnclickOutside from "./components/UseOnclickOutside/UseOnclickOutside"
 
 import UseWindowResizeHook from "./components/useWindowResize/UseWindowResize";
 import ScrollTOtopTOBottom from "./components/ScrollTOtopTOBottom/ScrollTOtopTOBottom";
+import FoodRecipe from "./components/FoodRecipeApp/FoodRecipe";
 
 const App = () => {
   return (
@@ -52,7 +53,8 @@ const App = () => {
       {/* <UseOnclickOutside /> */}
       {/* <UseOnclickOutside /> */}
       {/* <UseWindowResizeHook /> */}
-      <ScrollTOtopTOBottom />
+      {/* <ScrollTOtopTOBottom /> */}
+      <FoodRecipe />
     </div>
   );
 };
