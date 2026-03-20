@@ -17,6 +17,9 @@ import SearchAutoComple from "./components/SearchAutoComple/SearchAutoComple";
 import UseFeatchCustomhookInreal from "./components/useFeatchCustomhook/UseFeatchCustomhook";
 import UseOnclickOutside from "./components/UseOnclickOutside/UseOnclickOutside";
 
+import UseWindowResizeHook from "./components/useWindowResize/UseWindowResize";
+import ScrollTOtopTOBottom from "./components/ScrollTOtopTOBottom/ScrollTOtopTOBottom";
+
 const App = () => {
   return (
     <div>
@@ -47,7 +50,9 @@ const App = () => {
       {/* <SearchAutoComple /> */}
       {/* <UseFeatchCustomhookInreal /> */}
       {/* <UseOnclickOutside /> */}
-      <UseOnclickOutside />
+      {/* <UseOnclickOutside /> */}
+      {/* <UseWindowResizeHook /> */}
+      <ScrollTOtopTOBottom />
     </div>
   );
 };
