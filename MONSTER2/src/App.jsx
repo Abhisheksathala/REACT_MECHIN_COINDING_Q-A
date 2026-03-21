@@ -16,10 +16,10 @@ import GithubProfileFinder from "./components/githubProfileFinder/githubProfileF
 import SearchAutoComple from "./components/SearchAutoComple/SearchAutoComple";
 import UseFeatchCustomhookInreal from "./components/useFeatchCustomhook/UseFeatchCustomhook";
 import UseOnclickOutside from "./components/UseOnclickOutside/UseOnclickOutside";
-
 import UseWindowResizeHook from "./components/useWindowResize/UseWindowResize";
 import ScrollTOtopTOBottom from "./components/ScrollTOtopTOBottom/ScrollTOtopTOBottom";
 import FoodRecipe from "./components/FoodRecipeApp/FoodRecipe";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
@@ -54,7 +54,8 @@ const App = () => {
       {/* <UseOnclickOutside /> */}
       {/* <UseWindowResizeHook /> */}
       {/* <ScrollTOtopTOBottom /> */}
-      <FoodRecipe />
+      {/* <FoodRecipe /> */}
+      <Home />
     </div>
   );
 };
